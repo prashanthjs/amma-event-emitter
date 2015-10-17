@@ -3,7 +3,7 @@
         "target": "es5",
         "module": "commonjs",
         "sourceMap": false,
-        "declaration": true,
+        "declaration": false,
         "noImplicitAny": false,
         "removeComments": false,
         "noLib": false
@@ -16,12 +16,8 @@
         "typings/**/*.ts"
     ],
     "files": [
-        "amma-event-emitter.d.ts",
-        "index.d.ts",
         "index.ts",
-        "services/event.emitter.d.ts",
         "services/event.emitter.ts",
-        "test/unit-testing/services/event.emitter.test.d.ts",
         "test/unit-testing/services/event.emitter.test.ts",
         "typings/async/async.d.ts",
         "typings/bluebird/bluebird.d.ts",
@@ -34,5 +30,6 @@
         "typings/q/Q.d.ts",
         "typings/sinon/sinon.d.ts",
         "typings/tsd.d.ts"
-    ]
+    ],
+    "exclude": []
 }
